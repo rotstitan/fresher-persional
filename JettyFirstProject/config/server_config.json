@@ -1,0 +1,13 @@
+{
+	"kafka": {
+		"host": "127.0.0.1",
+		"port": "9092",
+		"consume_group": "tool"
+	},
+	"api": {
+		"address": "0.0.0.0",
+		"port": "7777",
+		"prefix": "/firstjetty"
+	},
+	"logPath": "logs/",
+}
