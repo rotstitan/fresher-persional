@@ -1,0 +1,319 @@
+{
+    "SUCCESS": {
+        "error": 1,
+        "message": {
+            "VI": "Thành công",
+            "EN": "Success",
+            "IN": " Sukses",
+            "TH": "สำเร็จ"
+        }
+    },
+    "PAYMENT_IN_PROGRESS": {
+        "error": 2,
+        "message": {
+            "VI": "Giao dịch đang xử lý",
+            "EN": "Payment in progress",
+            "IN": " Pembayaran sedang diproses",
+            "TH": "อยู่ในขั้นตอนการดำเนินการจ่ายเงิน"
+        }
+    },
+    "INVALID_DATA_INPUT": {
+        "error": -1,
+        "message": {
+            "VI": "Dữ liệu không hợp lệ",
+            "EN": "Invalid data input",
+            "IN": " Data input salah",
+            "TH": "การนำเข้าข้อมูลไม่ถูกต้อง"
+        }
+    },
+    "INVALID_SIGNATURE": {
+        "error": -2,
+        "message": {
+            "VI": "Dữ liệu không chính xác",
+            "EN": "Invalid signature",
+            "IN": " Singature salah",
+            "TH": "ลายเซ็นไม่ถูกต้อง"
+        }
+    },
+    "INVALID_TOKEN": {
+        "error": -4,
+        "message": {
+            "VI": "Thời gian truy cập hết hạn hoặc không chính xác",
+            "EN": "Invalid token",
+            "IN": " Token habis",
+            "TH": " TOKEN ไม่ถูกต้อง"
+        }
+    },
+    "INVALID_COUNTRY_CURRENCY": {
+        "error": -5,
+        "message": {
+            "VI": "Thời gian truy cập hết hạn hoặc không chính xác",
+            "EN": "Invalid token",
+            "IN": " Waktu akses kadaluarsa atau salah ",
+            "TH": "อัตราแลกเปลี่ยนไม่ถูกต้อง"
+        }
+    },
+    "INVALID_LANGUAGE": {
+        "error": -6,
+        "message": {
+            "VI": "Thông tin quốc gia hoặc ngôn ngữ chưa được hỗ trợ",
+            "EN": "Invalid token",
+            "IN": "Bahasa belum tersedia",
+            "TH": "ภาษาไม่ถูกต้อง"
+        }
+    },
+    "PASSPORT_AUTHEN_ERROR": {
+        "error": -10,
+        "message": {
+            "VI": "Thông tin đăng nhập không chính xác",
+            "EN": "Invalid authentication",
+            "IN": "Otentikasi error",
+            "TH": "การรับรองตัวตนไม่ถูกต้อง"
+        }
+    },
+    "APP_CONFIG_ERROR": {
+        "error": -20,
+        "message": {
+            "VI": "Thông tin App không chính xác",
+            "EN": "Invalid app config",
+            "IN": "konfigurasi aplikasi salah",
+            "TH": " กำหนดค่า App ไม่ถูกต้อง"
+        }
+    },
+    "STORE_GET_ROLE_ERROR": {
+        "error": -21,
+        "message": {
+            "VI": "Thông tin nhân vật không tìm thấy",
+            "EN": "Role info not found",
+            "IN": "Info role tidak ada",
+            "TH": "ไม่พบข้อมูลตัวละคร"
+        }
+    },
+    "STORE_GET_ROLE_NOT_SUPPORT_ERROR": {
+        "error": -22,
+        "message": {
+            "VI": "Thông tin nhân vật chưa được hỗ trợ",
+            "EN": "Role info not supported",
+            "IN": "Info role belum disupport",
+            "TH": "ข้อมูลตัวละครไม่ได้รับการสนับสนุน"
+        }
+    },
+    "STORE_GET_SERVER_ERROR": {
+        "error": -23,
+        "message": {
+            "VI": "Thông tin máy chủ không tìm thấy",
+            "EN": "Server info not found",
+            "IN": "Info server tidak ada",
+            "TH": "ไม่พบข้อมูลเซิฟเวอร์"
+        }
+    },
+    "STORE_GET_SERVER_NOT_SUPPORT_ERROR": {
+        "error": -24,
+        "message": {
+            "VI": "Danh sách máy chủ chưa được hỗ trợ",
+            "EN": "Server info not supported",
+            "IN": "Info server belum disupport",
+            "TH": "ข้อมูลเซิฟเวอร์ไม่ได้รับการสนับสนุน"
+        }
+    },
+    "STORE_GET_BALANCE_ERROR": {
+        "error": -25,
+        "message": {
+            "VI": "Thông tin số dư không tìm thấy",
+            "EN": "Account balance not found",
+            "IN": "Info saldo rekening tidak ada",
+            "TH": "ไม่พบยอดเงินในบัญชี"
+        }
+    },
+    "STORE_GET_BALANCE_NOT_SUPPORT_ERROR": {
+        "error": -26,
+        "message": {
+            "VI": "Thông tin số dư chưa được hỗ trợ",
+            "EN": "Account balance not supported",
+            "IN": "Indo saldo rekening belum disupport",
+            "TH": "ยอดเงินในบัญชีไม่พอ"
+        }
+    },
+    "STORE_GET_PRODUCTS_ERROR": {
+        "error": -27,
+        "message": {
+            "VI": "Thông tin vật phẩm không tìm thấy",
+            "EN": "Product list not found",
+            "IN": "Info item tidak ada",
+            "TH": "ไม่พบรายการสินค้า"
+        }
+    },
+    "STORE_GET_PRODUCTS_NOT_SUPPORT_ERROR": {
+        "error": -28,
+        "message": {
+            "VI": "Thông tin vật phẩm chưa được hỗ trợ",
+            "EN": "Product list not supported",
+            "IN": "Info item belum disupport",
+            "TH": "รายการสินค้าไม่ได้รับการสนับสนุน"
+        }
+    },
+    "STORE_GET_TRANS_ERROR": {
+        "error": -29,
+        "message": {
+            "VI": "Mã giao dịch ",
+            "EN": "Product list not supported",
+            "IN": "Kode transaksi error",
+            "TH": "รายการสินค้าไม่ได้รับการสนับสนุน"
+        }
+    },
+    "STORE_GET_PAY_WALLET_ERROR": {
+        "error": -30,
+        "message": {
+            "VI": "Mã giao dịch ",
+            "EN": "Pay account balance error",
+            "IN": "Saldo rekening error",
+            "TH": "ยอดเงินคงเหลือในบัญชีไม่เพียงพอ"
+        }
+    },
+    "STORE_GET_PAY_WALLET_NOT_SUPPORT_ERROR": {
+        "error": -31,
+        "message": {
+            "VI": "Mua vật phẩm bằng sử dư chưa được hỗ trợ",
+            "EN": "Pay account balance not supported",
+            "IN": "Pembayaran dengan saldo rekening belum disupport",
+            "TH": "ยอดเงินคงเหลือในบัญชีไม่เพียงพอ"
+        }
+    },
+    "PAYMENT_GET_APPINFO_ERROR": {
+        "error": -40,
+        "message": {
+            "VI": "Thông tin kết nối thanh toán có lỗi",
+            "EN": "Payment info error",
+            "IN": "Info pembayaran error",
+            "TH": "ข้อมูลการชำระเงินเกิดข้อผิดพลาด"
+        }
+    },
+    "PAYMENT_PAY_CARD_ERROR": {
+        "error": -41,
+        "message": {
+            "VI": "Thanh toán thẻ cào không thành công",
+            "EN": "Pay card error",
+            "IN": "Pembayaran voucher error",
+            "TH": "การชำระเงินผ่านบัตรไม่สำเร็จ"
+        }
+    },
+    "PAYMENT_PAY_ZALOPAY_ERROR": {
+        "error": -42,
+        "message": {
+            "VI": "Thanh toán Zalo Pay không thành công",
+            "EN": "Pay Zalo Pay error",
+            "IN": "Pembayaran Zalo pay error",
+            "TH": "การชำระเงินผ่าน Zalo Pay  ไม่สำเร็จ"
+        }
+    },
+    "PAYMENT_PAY_SMS_ERROR": {
+        "error": -43,
+        "message": {
+            "VI": "Thanh toán sms không thành công",
+            "EN": "Pay sms error",
+            "IN": "Pembayaran sms error",
+            "TH": "การชำระเงิน sms ไม่สำเร็จ"
+        }
+    },
+    "PAYMENT_PAY_BANK_ERROR": {
+        "error": -44,
+        "message": {
+            "VI": "Thanh toán banking không thành công",
+            "EN": "Pay bank error",
+            "IN": "Pembayaran bank error",
+            "TH": "การชำระเงินไม่สำเร็จ"
+        }
+    },
+    "PAYMENT_VERIFY_SMSOTP_ERROR": {
+        "error": -45,
+        "message": {
+            "VI": "Xác thực OTP không thành công",
+            "EN": "Verify Sms OTP error",
+            "IN": "Verifikasi_SMS OTP_error",
+            "TH": "การยืนยัน OTP ไม่ถูกต้อง"
+        }
+    },
+    "PAYMENT_PAYWALLET_ERROR": {
+        "error": -46,
+        "message": {
+            "VI": "Mua vật phẩm bằng sử dư chưa được hỗ trợ",
+            "EN": "Pay account balance not supported",
+            "IN": "Pembayaran dengan saldo rekening belum disupport",
+            "TH": "ยอดเงินคงเหลือในบัญชีไม่เพียงพอ"
+        }
+    },
+    "FULFILLMENT_GET_RESULT_ERROR": {
+        "error": -50,
+        "message": {
+            "VI": "Cập nhật kết quả đơn hàng có lỗi",
+            "EN": "Order result error",
+            "IN": "Update hasil order error",
+            "TH": "เกิดข้อผิดพลาดในการสั่งซื้อ"
+        }
+    },
+    "FULFILLMENT_ORDER_NOT_FOUND_ERROR": {
+        "error": -51,
+        "message": {
+            "VI": "Thông tin đơn hàng không tìm thấy",
+            "EN": "Order not found",
+            "IN": "Info order tidak ada",
+            "TH": "ไม่พบคำสั่งซื้อ"
+        }
+    },
+    "FULFILLMENT_CREATE_ORDER_FAILED": {
+        "error": -52,
+        "message": {
+            "VI": "Khởi tạo đơn hàng thất bại",
+            "EN": "Create order fail",
+            "IN": "Buat order tidak sukses",
+            "TH": "การสร้างคำสั่งซื้อล้มเหลว"
+        }
+    },
+    "GET_ORDER_STATUS_ERROR": {
+        "error": -60,
+        "message": {
+            "VI": "Thông tin trạng thái đơn hàng có lỗi",
+            "EN": "Order status error",
+            "IN": "Info status order error",
+            "TH": "สถานะการสั่งซื้อเกิดข้อผิดพลาด"
+        }
+    },
+    "DDOS_DETECTION_ERROR": {
+        "error": -401,
+        "message": {
+            "VI": "Lượng truy cập cao bất thường, vui lòng thử lại sau 5 phút",
+            "EN": "Pay account balance not supported",
+            "IN": " Terlalu banyak pengguna, silakan coba lagi dalam 5 menit ",
+            "TH": "ยอดเงินคงเหลือในบัญชีไม่เพียงพอ"
+        }
+    },
+    "UNSUPPORTED_ERROR": {
+        "error": -404,
+        "message": {
+            "VI": "Tính năng chưa được hỗ trợ",
+            "EN": "Unsupported",
+            "IN": " Fitur belum disupport ",
+            "TH": "ไม่สนับสนุน"
+        }
+    },
+    "CONFIG_ERROR": {
+        "error": -500,
+        "message": {
+            "VI": "Thông tin cấu hình có lỗi",
+            "EN": "Payment app config error",
+            "IN": " Konfigurasi aplikasi error",
+            "TH": "ค่าapp ชำระเงินผิดพลาด"
+        }
+    },
+    "SERVER_ERROR": {
+        "error": -503,
+        "message": {
+            "VI": "Hệ thống xảy ra lỗi",
+            "EN": "Server error",
+            "IN": "Server error",
+            "TH": "เกิดข้อผิดพลาดภายในเซิร์ฟเวอร์"
+        }
+    }
+}
+
+

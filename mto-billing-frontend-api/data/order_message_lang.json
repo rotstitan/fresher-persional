@@ -1,0 +1,731 @@
+{
+    "[DE]DELIVER_SUCCESS": {
+        "message": {
+            "EN": "[DE 211] DELIVER_SUCCESS",
+            "TH": "[DE 211] สำเร็จ",
+            "IN": "[DE 211] Transaksi sukses",
+            "VI": "[DE 211] Giao dịch thành công"
+        },
+        "error": 211
+    },
+    "[DE]DELIVER_NOT_ENOUGH_MONEY_IN_WALLET": {
+        "message": {
+            "EN": "[DE 212] DELIVER_NOT_ENOUGH_MONEY_IN_WALLET_BALANCE_%s",
+            "TH": "[DE 212] ยังไม่ได้ชำระเงิน เงินในบัญชีคงเหลือ …% ",
+            "IN": "[DE 212] Pesanan belum selesai dibayar. Sisa saldo setelah transaksi adalah_% s ",
+            "VI": "[DE 212] Đơn hàng chưa được thanh toán đủ. Số tiền trong tài khoản sau giao dịch là %s"
+        },
+        "error": 212
+    },
+    "[DE]DELIVER_WRONG_SIG": {
+        "message": {
+            "EN": "[DE -200] DELIVER_WRONG_SIG",
+            "TH": "[DE -200] การซื้อไม่สำเร็จ",
+            "IN": "[DE -200] Pengiriman gagal, informasi pesanan salah ",
+            "VI": "[DE -200] Giao hàng không thành công, thông tin đơn hàng không chính xác"
+        },
+        "error": -200
+    },
+    "[DE]DELIVER_SPEND_MONEY_ERROR": {
+        "message": {
+            "EN": "[DE -211] DELIVERY_ERROR",
+            "TH": "[DE -211] การซื้อไม่สำเร็จ",
+            "IN": "[DE -211] Pengiriman gagal ",
+            "VI": "[DE -211] Giao hàng không thành công"
+        },
+        "error": -211
+    },
+    "[DE]DELIVER_FAIL": {
+        "message": {
+            "EN": "[DE -212] DELIVERY_ERROR",
+            "TH": "[DE -212]การซื้อไม่สำเร็จ",
+            "IN": "[DE -212] Pengiriman gagal ",
+            "VI": "[DE -212] Giao hàng không thành công"
+        },
+        "error": -212
+    },
+    "[DE]DELIVER_DUPLICATE_RECEIPT": {
+        "message": {
+            "EN": "[DE -200] DELIVERY_INFORMATION_INCORRECT",
+            "TH": "[DE -200] ข้อมูลการซื้อไม่ถูกต้อง",
+            "IN": "[DE -200] Informasi pengiriman error ",
+            "VI": "[DE -200] Thông tin giao hàng có lỗi"
+        },
+        "error": -211
+    },
+    "[DE]DELIVER_SERVER_ERROR": {
+        "message": {
+            "EN": "[DE -200] DELIVERY_SYSTEM_FAILURE",
+            "TH": "[DE -200]ข้อมูลสั่งซื้อไม่ถูกต้อง",
+            "IN": "[DE -200] Sistem pengiriman terjadi kesalahan ",
+            "VI": "[DE -200] Hệ thống giao hàng có lỗi"
+        },
+        "error": -201
+    },
+    "[DE]DELIVERY_UNEXPECTED_ERROR": {
+        "message": {
+            "EN": "[DE -999] DELIVERY_UNEXPECTED_ERROR",
+            "TH": "[DE -999]ข้อมูลสั่งซื้อไม่ถูกต้อง",
+            "IN": "[DE -999] Sistem pengiriman terjadi kesalahan ",
+            "VI": "[DE -999] Hệ thống giao hàng có lỗi"
+        },
+        "error": -201
+    },
+    "[MB]ORDER_INIT_SUCCESS": {
+        "message": {
+            "EN": "[MB 2] INIT_ORDER_SUCCESS",
+            "TH": "[MB 2] การเตรียมการสั่งซื้อสำเร็จ",
+            "IN": "[MB 2] Pembuatan pesanan sukses ",
+            "VI": "[MB 2] Khởi tạo đơn hàng thành công"
+        },
+        "error": 2
+    },
+    "[MB]ORDER_INIT_FAIL": {
+        "message": {
+            "EN": "[MB -2] INIT_ORDER_ERROR",
+            "TH": "[MB -2] การเตรียมการสั่งซื้อไม่สำเร็จ",
+            "IN": "[MB -2] Pembuatan pesanan gagal ",
+            "VI": "[MB -2] Khởi tạo đơn hàng không thành công"
+        },
+        "error": -2
+    },
+    "[MB]ORDER_IN_PAYMENT_PROGRESS": {
+        "message": {
+            "EN": "[MB 3] SUBMIT_PAYMENT_IN_PROGRESS",
+            "TH": "[MB 3] อยู่ในขั้นตอนการดำเนินการ จ่ายเงิน",
+            "IN": "[MB 3] Pesanan sedang diproses untuk pembayaran ",
+            "VI": "[MB 3] Đơn hàng đang được xử lý thanh toán"
+        },
+        "error": 3
+    },
+    "[MB]ORDER_SUBMIT_PAYMENT_SUCCESS": {
+        "message": {
+            "EN": "[MB 4] SUBMIT_PAYMENT_SUCCESS",
+            "TH": "[MB 4]การชำระเงินสำเร็จ SUBMIT_PAYMENT_SUCCESS",
+            "IN": "[MB 4] Submit pembayaran sukses ",
+            "VI": "[MB 4] Đơn hàng khởi đã tạo thanh toán"
+        },
+        "error": 4
+    },
+    "[MB]ORDER_SUBMIT_PAYMENT_FAIL": {
+        "message": {
+            "EN": "[MB -4] SUBMIT_PAYMENT_ERROR",
+            "TH": "[MB -4] การชำระเงินไม่สำเร็จ SUBMIT_PAYMENT_ERROR",
+            "IN": "[MB -4] Submit pembayaran gagal ",
+            "VI": "[MB -4] Đơn hàng khởi tạo thanh toán không thành công"
+        },
+        "error": 4
+    },
+    "[MB]ORDER_PURCHASE_SUCCESS": {
+        "message": {
+            "EN": "[MB 5] PURCHASE_SUCCESS",
+            "TH": "[MB 5] การชำระเงินสำเร็จ",
+            "IN": "[MB 5] Pesanan sedang memproses pengiriman ",
+            "VI": "[MB 5] Đơn hàng đang xử lý giao hàng"
+        },
+        "error": 4
+    },
+    "[MB]ORDER_PURCHASE_FAIL": {
+        "message": {
+            "EN": "[MB 5] PURCHASE_FAIL",
+            "TH": "[MB 5] การชำระเงินไม่สำเร็จ",
+            "IN": "[MB 5] Pembayaran pesanan gagal ",
+            "VI": "[MB 5] Đơn hàng thanh toán không thành công"
+        },
+        "error": 5
+    },
+    "[MB]ORDER_PURCHASE_ERROR": {
+        "message": {
+            "EN": "[MB 6] PURCHASE_ERROR",
+            "TH": "[MB 6] การชำระเงินไม่สำเร็จ",
+            "IN": "[MB 6] Pembayaran pesanan gagal ",
+            "VI": "[MB 6] Đơn hàng thanh toán không thành công"
+        },
+        "error": 5
+    },
+    "[MB]ORDER_DELIVERY_SUCCESS": {
+        "message": {
+            "EN": "[MB 1] ORDER_DELIVERY_SUCCESS",
+            "TH": "[MB 1]คำสั่งซื้อสำเร็จ",
+            "IN": "[MB 1] Transaksi sukses ",
+            "VI": "[MB 1] Giao dịch thành công"
+        },
+        "error": 1
+    },
+    "[MB]ORDER_DELIVERY_FAIL": {
+        "message": {
+            "EN": "[MB -1] ORDER_DELIVERY_FAIL",
+            "TH": "[MB -1]คำสั่งซื้อล้มเหลว",
+            "IN": "[MB -1] Transaksi gagal ",
+            "VI": "[MB -1] Giao dịch thất bại"
+        },
+        "error": -1
+    },
+    "[MB]ORDER_DELIVERY_INVALID_INFO": {
+        "message": {
+            "EN": "[MB 1] ORDER_DELIVERY_INVALID_INFO",
+            "TH": "[MB 1] ข้อมูลการส่งสินค้าไม่ถูกต้อง",
+            "IN": "[MB 1] Informasi pengiriman salah ",
+            "VI": "[MB 1] Thông tin giao hàng không chính xác"
+        },
+        "error": 1
+    },
+    "[MB]ORDER_DELIVERY_ERROR": {
+        "message": {
+            "EN": "[MB -1] ORDER_DELIVERY_ERROR",
+            "TH": "[MB -1] การส่งไม่สำเร็จ",
+            "IN": "[MB -1] Pengiriman gagal ",
+            "VI": "[MB -1] Giao hàng xảy ra lỗi"
+        },
+        "error": -1
+    },
+    "[SW]CHANNEL_NOT_ACTIVE": {
+        "message": {
+            "EN": "[SW -16] CHANNEL_NOT_ACTIVE",
+            "TH": "[SW -16] Chanel ใช้เปิดให้ใช้งาน",
+            "VN": "[SW -16] Channel không active",
+            "IN": "[SW -16] Channel tidak aktif "
+        },
+        "error": -16
+    },
+    "[SW]INVALID_OTP": {
+        "message": {
+            "EN": "[SW -105] INVALID_OTP",
+            "TH": "[SW -105] เลข OTP ไม่ถูกต้อง",
+            "VN": "[SW -105] Mã xác nhận không đúng",
+            "IN": "[SW -105] OTP salah "
+        },
+        "error": -105
+    },
+    "[SW]INVALID_CARD_CODE": {
+        "message": {
+            "EN": "[SW -101] INVALID_CARD_CODE",
+            "TH": "[SW -101] รหัสบัตรไม่ถูกต้อง",
+            "VN": "[SW -101] Thông tin thẻ không đúng",
+            "IN": "[SW -101] Informasi kartu salah "
+        },
+        "error": -101
+    },
+    "[SW]MSISDN_INVALID": {
+        "message": {
+            "EN": "[SW -22] MSISDN_INVALID",
+            "TH": "[SW -22] เลขMSISDN ไม่ถูกต้อง ",
+            "VN": "[SW -22] Thông tin msisdn không hợp lệ",
+            "IN": "[SW -22] Informasi msisdn tidak benar "
+        },
+        "error": -22
+    },
+    "[SW]CHARGE_SUCCESSFUL": {
+        "message": {
+            "EN": "[SW 3] CHARGE_SUCCESSFUL",
+            "TH": "[SW 3] CHARGE สำเร็จ ",
+            "VN": "[SW 3] Giao dịch đang xử lý",
+            "IN": "[SW 3] Transaksi sedang diprocess "
+        },
+        "error": 3
+    },
+    "[SW]CHANNEL_RETURN_INVALID_PARAMS": {
+        "message": {
+            "EN": "[SW -997] CHANNEL_RETURN_INVALID_PARAMS",
+            "TH": "[SW -997] ระบบมีปัญหา",
+            "VN": "[SW -997] Lỗi hệ thống ",
+            "IN": "[SW -997] Error sistem" 
+        },
+        "error": -997
+    },
+    "[SW]GATEWAY_NOT_ACTIVE": {
+        "message": {
+            "EN": "[SW -14] GATEWAY_NOT_ACTIVE",
+            "TH": "[SW -14] GATEWAY ไม่เปิดใช้งาน",
+            "VN": "[SW -14] Gateway không active",
+            "IN": "[SW -14] Gateway tidak aktif "
+        },
+        "error": -14
+    },
+    "[SW]USER_ID_INVALID": {
+        "message": {
+            "EN": "[SW -5] USER_ID_INVALID",
+            "TH": "[SW -5] ข้อมูลผู้ใช้ไม่ถูกต้อง",
+            "VN": "[SW -5] Thông tin user không hợp lệ",
+            "IN": "[SW -5] Informasi user tidak benar "
+        },
+        "error": -5
+    },
+    "[SW]APP_ID_INVALID": {
+        "message": {
+            "EN": "[SW -1] APP_ID_INVALID",
+            "TH": "[SW -1] ข้อมูล App ไม่ถูกต้อง",
+            "VN": "[SW -1] Thông tin ứng dụng không hợp lệ",
+            "IN": "[SW -1] Informasi aplikasi tidak benar "
+        },
+        "error": -1
+    },
+    "[SW]USER_IP_INVALID": {
+        "message": {
+            "EN": "[SW -9] USER_IP_INVALID",
+            "TH": "[SW -9] ข้อมูล USER IP ไม่ถูกต้อง ",
+            "VN": "[SW -9] Thông tin userip không hợp lệ",
+            "IN": "[SW -9] Informasi user ip tidak benar "
+        },
+        "error": -9
+    },
+    "[SW]CHARGE_INFO_INVALID": {
+        "message": {
+            "EN": "[SW -8] CHARGE_INFO_INVALID",
+            "TH": "[SW -8] ข้อมูลCHARGE INFO ไม่ถูกต้อง ",
+            "VN": "[SW -8] Thông tin chargeinfo không hợp lệ",
+            "IN": "[SW -8] Informasi charge tidak benar "
+        },
+        "error": -8
+    },
+    "[SW]INVALID_CARD_SERIAL": {
+        "message": {
+            "EN": "[SW -100] INVALID_CARD_SERIAL",
+            "TH": "[SW -100] เลข SERIAL ไม่ถูกต้อง",
+            "VN": "[SW -100] Thông tin thẻ không đúng",
+            "IN": "[SW -100] Nomor serial salah"
+        },
+        "error": -100
+    },
+    "[SW]CACHE_EXCEPTION": {
+        "message": {
+            "EN": "[SW -998] ระบบเกิดปัญหา",
+            "TH": "[SW -998] CACHE_EXCEPTION",
+            "VN": "[SW -998] Lỗi hệ thống ",
+            "IN": "[SW -998] Error sistem"
+        },
+        "error": -998
+    },
+    "[SW]USER_ACCOUNT_REACH_LIMIT_TRANSACTION": {
+        "message": {
+            "EN": "[SW -112] USER_ACCOUNT_REACH_LIMIT_TRANSACTION",
+            "TH": "[SW -112] บัญชีผู้ใช้จำกัดการซื้อ",
+            "VN": "[SW -112] Vượt quá giới hạn thanh toán của tài khoản",
+            "IN": "[SW -112] Melebihi batasan pembayaran "
+        },
+        "error": -112
+    },
+    "[SW]ORGINAL_CHANNEL_RETURN_ERROR": {
+        "message": {
+            "EN": "[SW -896] ORGINAL_CHANNEL_RETURN_ERROR",
+            "TH": "[SW -896] ระบบขัดข้อง",
+            "VN": "[SW -896] Lỗi hệ thống ",
+            "IN": "[SW -896] Error sistem "
+        },
+        "error": -896
+    },
+    "[SW]COUNTRY_INVALID": {
+        "message": {
+            "EN": "[SW -11] COUNTRY_INVALID",
+            "TH": "[SW -11] ข้อมูลประเทศไม่ถูกต้อง",
+            "VN": "[SW -11] Thông tin country không hợp lệ",
+            "IN": "[SW -11] Informasi negara tidak benar"
+        },
+        "error": -11
+    },
+    "[SW]CHANNEL_NOT_SUPPORT_COUNTRY": {
+        "message": {
+            "EN": "[SW -21] CHANNEL_NOT_SUPPORT_COUNTRY",
+            "TH": "[SW -21]สกุลเงินใช้ไม่ได้กับช่องทางการชำระเงินนี้",
+            "VN": "[SW -21] Channel không hỗ trợ loại tiền này",
+            "IN": "[SW -21] Channel tidak support mata uang ini "
+        },
+        "error": -21
+    },
+    "[SW]USER_ACCOUNT_REACH_LIMIT_AMOUNT": {
+        "message": {
+            "EN": "[SW -111] USER_ACCOUNT_REACH_LIMIT_AMOUNT",
+            "TH": "[SW -111] เกินข้อจำกัดการชำระเงินของบัญชีผู้ใช้",
+            "VN": "[SW -111] Vượt quá giới hạn thanh toán của tài khoản",
+            "IN": "[SW -111] Melebihi batasan pembayaran "
+        },
+        "error": -111
+    },
+    "[SW]GATEWAY_INVALID": {
+        "message": {
+            "EN": "[SW -13] GATEWAY_INVALID",
+            "TH": "[SW -13] ข้อมูลGATEWAY ไม่ถูกต้อง ",
+            "VN": "[SW -13] Thông tin gateway không hợp lệ",
+            "IN": "[SW -13] Informasi getway tidak benar "
+        },
+        "error": -13
+    },
+    "[SW]APP_MAINTENANCE": {
+        "message": {
+            "EN": "[SW -2] APP_MAINTENANCE",
+            "TH": "[SW -2] APP กำลังปิดปรับปรุง ",
+            "VN": "[SW -2] Ứng dụng đang bảo trì",
+            "IN": "[SW -2] App maintenance "
+        },
+        "error": -2
+    },
+    "[SW]ITEM_INVALID": {
+        "message": {
+            "EN": "[SW -4] ITEM_INVALID",
+            "TH": "[SW -4] ข้อมูลไอเทมไม่ถูกต้อง",
+            "VN": "[SW -4] Thông tin item không hợp lệ",
+            "IN": "[SW -4] Informasi item tidak benar "
+        },
+        "error": -4
+    },
+    "[SW]TRANSACTION_NOT_PASS_RISK_CHECK": {
+        "message": {
+            "EN": "[SW -109] TRANSACTION_NOT_PASS_RISK_CHECK",
+            "TH": "[SW -109] การซื้อถูกล็อกเนื่องจากไม่ปลอดภัย",
+            "VN": "[SW -109] Giao dịch bị khóa (giao dịch không an toàn)",
+            "IN": "[SW -109] Transaksi terkunci (transaksi tidak aman)"
+        },
+        "error": -109
+    },
+    "[SW]CHANNEL_NOT_SUPPORT_CURRENCY": {
+        "message": {
+            "EN": "[SW -20] CHANNEL_NOT_SUPPORT_CURRENCY",
+            "TH": "[SW -20] CHANNEL ไม่สนับสนุนสกุเงินนี้",
+            "VN": "[SW -20] Channel không hỗ trợ loại tiền này",
+            "IN": "[SW -20] Channel tidak support mata uang ini "
+        },
+        "error": -20
+    },
+    "[SW]CHANNEL_RETURN_ERROR": {
+        "message": {
+            "EN": "[SW -897] CHANNEL_RETURN_ERROR",
+            "TH": "[SW -897] ระบบเกิดข้อผิดพลาด",
+            "VN": "[SW -897] Lỗi hệ thống ",
+            "IN": "[SW -897] Error sistem "
+        },
+        "error": -897
+    },
+    "[SW]AMOUNT_LESS_THAN_MIN_OF_CHANNEL": {
+        "message": {
+            "EN": "[SW -23] AMOUNT_LESS_THAN_MIN_OF_CHANNEL",
+            "TH": "[SW -23] มูลค่านี้น้อยกว่าที่CHANNELกำหนด",
+            "VN": "[SW -23] Channel không hỗ trợ mệnh giá này",
+            "IN": "[SW -23] Channel tidak support nominal ini "
+        },
+        "error": -23
+    },
+    "[SW]CARD_CODE_INVALID": {
+        "message": {
+            "EN": "[SW -31] CARD_CODE_INVALID",
+            "TH": "[SW -31] รหัสบัตรไม่ถูกต้อง",
+            "VN": "[SW -31] thông tin thẻ không hợp lệ",
+            "IN": "[SW -31] informasi kartu tidak benar "
+        },
+        "error": -31
+    },
+    "[SW]GATEWAY_NOT_SUPPORT_MSISDN": {
+        "message": {
+            "EN": "[SW -110] GATEWAY_NOT_SUPPORT_MSISDN",
+            "TH": "[SW -110] GATEWAYไม่สนับสนุนเลขMSISDNนี้",
+            "VN": "[SW -110] Gateway không hỗ trợ msisdn  này",
+            "IN": "[SW -110] Gateway tidak support msisdn ini "
+        },
+        "error": -110
+    },
+    "[SW]APP_TRANS_ID_INVALID": {
+        "message": {
+            "EN": "[SW -6] APP_TRANS_ID_INVALID",
+            "TH": "[SW -6] APP TRANS ID ไม่ถูกต้อง",
+            "VN": "[SW -6] Thông tin apptransid không hợp lệ",
+            "IN": "[SW -6] Informasi apptransid tidak benar "
+        },
+        "error": -6
+    },
+    "[SW]USER_AGENT_INVALID": {
+        "message": {
+            "EN": "[SW -10] USER_AGENT_INVALID",
+            "TH": "[SW -10] ข้อมูลUSER AGENT ไม่ถูกต้อง ",
+            "VN": "[SW -10] Thông tin useragent không hợp lệ",
+            "IN": "[SW -10] Informasi user agent tidak benar "
+        },
+        "error": -10
+    },
+    "[SW]TRANSACTION_EXPIRE": {
+        "message": {
+            "EN": "[SW -104] TRANSACTION_EXPIRE",
+            "TH": "[SW -104] การซื้อหมดเวลา",
+            "VN": "[SW -104] Giao dịch hết hạn",
+            "IN": "[SW -104] Transaksi kadaluwarsa "
+        },
+        "error": -104
+    },
+    "[SW]APP_DATA_INVALID": {
+        "message": {
+            "EN": "[SW -7] APP_DATA_INVALID",
+            "TH": "[SW -7] ข้อมูล app ไม่ถูกต้อง ",
+            "VN": "[SW -7] Thông tin appdata không hợp lệ",
+            "IN": "[SW -7] Appdata tidak benar "
+        },
+        "error": -7
+    },
+    "[SW]COUNTRY_NOT_SUPPORT_CHANNEL": {
+        "message": {
+            "EN": "[SW -12] COUNTRY_NOT_SUPPORT_CHANNEL",
+            "TH": "[SW -12] ประเทศของคุณไม่สนับสนุนCHANNELนี้",
+            "VN": "[SW -12] Country không hỗ trợ channel",
+            "IN": "[SW -12] Negara tidak support channel "
+        },
+        "error": -12
+    },
+    "[SW]CHANNEL_NOT_AMOUNT": {
+        "message": {
+            "EN": "[SW -19] CHANNEL_NOT_AMOUNT",
+            "TH": "[SW -19] CHANNEL ไม่สนับสนุนมูลค่าการซื้อนี้ ",
+            "VN": "[SW -19] Channel không hỗ trợ mệnh giá này",
+            "IN": "[SW -19] Channel tidak support nominal ini "
+        },
+        "error": -19
+    },
+    "[SW]IN_NOTIFY_QUEUE": {
+        "message": {
+            "EN": "[SW 2] IN_NOTIFY_QUEUE",
+            "TH": "[SW 2] อยู่ในขั้นตอนดำเนินการ ",
+            "VN": "[SW 2] Giao dịch đang xử lý",
+            "IN": "[SW 2] Transaksi sedang diproses "
+        },
+        "error": 2
+    },
+    "[SW]CALLBACK_TIMEOUT": {
+        "message": {
+            "EN": "[SW -99] CALLBACK_TIMEOUT",
+            "TH": "[SW -99] พบปัญหาการเรียกกลับ",
+            "VN": "[SW -99] Lỗi gọi cung cấp dịch vụ ",
+            "IN": "[SW -99] Error timeout "
+        },
+        "error": -99
+    },
+    "[SW]CHANNEL_UNDEFINED_ERROR": {
+        "message": {
+            "EN": "[SW -899] CHANNEL_UNDEFINED_ERROR",
+            "TH": "[SW -899] ระบบเกิดข้อผิดพลาด",
+            "VN": "[SW -899] Lỗi hệ thống ",
+            "IN": "[SW -899] Error sistem "
+        },
+        "error": -899
+    },
+    "[SW]AMOUNT_NOT_IN_LIST_CONFIG": {
+        "message": {
+            "EN": "[SW -27] AMOUNT_NOT_IN_LIST_CONFIG",
+            "TH": "[SW -27] จำนวนเงินไม่ถูกต้อง",
+            "VN": "[SW -27] Số tiền không hợp lệ",
+            "IN": "[SW -27] Nominal tidak benar "
+        },
+        "error": -27
+    },
+    "[SW]AMOUNT_GREATER_THAN_MAX_OF_CHANNEL": {
+        "message": {
+            "EN": "[SW -24] AMOUNT_GREATER_THAN_MAX_OF_CHANNEL",
+            "TH": "[SW -24] CHANNEL ไม่สนับสนุนมูลค่าการซื้อนี้",
+            "VN": "[SW -24] Channel không hỗ trợ mệnh giá này",
+            "IN": "[SW -24] Channel tidak support nominal ini "
+        },
+        "error": -24
+    },
+    "[SW]SIGNATURE_INVALID": {
+        "message": {
+            "EN": "[SW -97] SIGNATURE_INVALID",
+            "TH": "[SW -97] ลายเซ็นไม่ถูกต้อง",
+            "VN": "[SW -97] Thông tin signature không đúng",
+            "IN": "[SW -97] Informasi tidak benar "
+        },
+        "error": -97
+    },
+    "[SW]OTP_EXPIRED": {
+        "message": {
+            "EN": "[SW -114] OTP_EXPIRED",
+            "TH": "[SW -114] OTP หมดอายุ ",
+            "VN": "[SW -114] Mã xác nhận hết hạn",
+            "IN": "[SW -114] OTP kadaluwarsa "
+        },
+        "error": -114
+    },
+    "[SW]CARD_IS_USED": {
+        "message": {
+            "EN": "[SW -113] CARD_IS_USED",
+            "TH": "[SW -113] บัตรถูกใช้งานแล้ว",
+            "VN": "[SW -113] Thẻ đã được sử dụng",
+            "IN": "[SW -113] Kartu sudah dipakai "
+        },
+        "error": -113
+    },
+    "[SW]CONFIG_ERROR": {
+        "message": {
+            "EN": "[SW -996] CONFIG_ERROR",
+            "TH": "[SW -996] ระบบเกิดปัญหา",
+            "VN": "[SW -996] Lỗi hệ thống ",
+            "IN": "[SW -996] Error sistem "
+        },
+        "error": -996
+    },
+    "[SW]TRANSACTION_INFO_IN_BLACKLIST": {
+        "message": {
+            "EN": "[SW -108] TRANSACTION_INFO_IN_BLACKLIST",
+            "TH": "[SW -108] การซื้อถูกล็อค เนื่องจากพบข้อมูลใน blacklist",
+            "VN": "[SW -108] Giao dịch bị khóa (một số thông tin trong backlist)",
+            "IN": "[SW -108] Transaksi terkunci (ada informasi dalam blacklist)"
+        },
+        "error": -108
+    },
+    "[SW]WAIT_FOR_CHARGE": {
+        "message": {
+            "EN": "[SW 4] WAIT_FOR_CHARGE",
+            "TH": "[SW 4] อยู่ในขั้นตอนดำเนินการ",
+            "VN": "[SW 4] Giao dịch đang xử lý",
+            "IN": "[SW 4] Tunggu untuk diproses "
+        },
+        "error": 4
+    },
+    "[SW]EXCEPTION": {
+        "message": {
+            "EN": "[SW -999] EXCEPTION",
+            "TH": "[SW -999]ระบบเกิดข้อผิดพลาด",
+            "VN": "[SW -999] Lỗi hệ thống ",
+            "IN": "[SW -999] Error sistem "
+        },
+        "error": -999
+    },
+    "[SW]SUBMIT_CHANNEL_ERROR": {
+        "message": {
+            "EN": "[SW -898] SUBMIT_CHANNEL_ERROR",
+            "TH": "[SW -898] ระบบเกิดข้อผิดพลาด",
+            "VN": "[SW -898] Lỗi hệ thống ",
+            "IN": "[SW -898] Error sistem "
+        },
+        "error": -898
+    },
+    "[SW]USER_BLOCK_ACCOUNT_FOR_PAYMENT": {
+        "message": {
+            "EN": "[SW -106] USER_BLOCK_ACCOUNT_FOR_PAYMENT",
+            "TH": "[SW -106] ผู้ใช้ล็อคบัญชีชำระเงิน",
+            "VN": "[SW -106] Khách hàng khóa tài khoản thanh toán",
+            "IN": "[SW -106] Akun pembayaran dikunci oleh pemain "
+        },
+        "error": -106
+    },
+    "[SW]USER_ACCOUNT_FOR_PAYMENT_NOT_ACTIVE": {
+        "message": {
+            "EN": "[SW -107] USER_ACCOUNT_FOR_PAYMENT_NOT_ACTIVE",
+            "TH": "[SW -107] บัญชีชำระเงินใช้งานไม่ได้",
+            "VN": "[SW -107] Tài khoản không đủ điều kiện thanh toán",
+            "IN": "[SW -107] Akun belum bisa membuat pembayaran "
+        },
+        "error": -107
+    },
+    "[SW]SUCCESSFULL": {
+        "message": {
+            "EN": "[SW 1] SUCCESSFULL",
+            "TH": "[SW 1] สำเร็จ",
+            "VN": "[SW 1] Giao dịch thành công ",
+            "IN": "[SW 1] Transaksi sukses "
+        },
+        "error": 1
+    },
+    "[SW]CHANNEL_INVALID": {
+        "message": {
+            "EN": "[SW -15] CHANNEL_INVALID",
+            "TH": "[SW -15] CHANNEL ไม่ถูกต้อง ",
+            "VN": "[SW -15] Thông tin channel không hợp lệ",
+            "IN": "[SW -15] Channel tidak benar "
+        },
+        "error": -15
+    },
+    "[SW]INIT": {
+        "message": {
+            "EN": "[SW 99] INIT",
+            "TH": "[SW 99] อยาในขั้นตอนดำเนินการ",
+            "VN": "[SW 99] Giao dịch đang xử lý",
+            "IN": "[SW 99] Transaksi sedang diproses "
+        },
+        "error": 99
+    },
+    "[SW]AMOUNT_LESS_THAN_MIN_OF_APP_CONFIG": {
+        "message": {
+            "EN": "[SW -25] AMOUNT_LESS_THAN_MIN_OF_APP_CONFIG",
+            "TH": "[SW -25] มูลค่าดังกล่าวน้อยกว่าที่ app กำหนด ",
+            "VN": "[SW -25] Ứng dụng không hỗ trợ mệnh giá này",
+            "IN": "[SW -25] Aplikasi tidak support nominal ini "
+        },
+        "error": -25
+    },
+    "[SW]CALLBACK_RETURN_ERROR": {
+        "message": {
+            "EN": "[SW -98] CALLBACK_RETURN_ERROR",
+            "TH": "[SW -98] พบปัญหาการเรียกกลับ",
+            "VN": "[SW -98] Lỗi gọi cung cấp dịch vụ ",
+            "IN": "[SW -98] Error callback return "
+        },
+        "error": -98
+    },
+    "[SW]USER_NOT_COMPLETE_TRANSACTION": {
+        "message": {
+            "EN": "[SW -102] USER_NOT_COMPLETE_TRANSACTION",
+            "TH": "[SW -102] การชำระเงินไม่สมบูรณ์",
+            "VN": "[SW -102] Khách hàng không thanh toán",
+            "IN": "[SW -102] Pemain belum selesai pembayaran "
+        },
+        "error": -102
+    },
+    "[SW]APP_INATIVE": {
+        "message": {
+            "EN": "[SW -3] APP_INATIVE",
+            "TH": "[SW -3] APP ยังไม่เปิดใช้งาน ",
+            "VN": "[SW -3] Ứng dụng chưa kích hoạt",
+            "IN": "[SW -3] App belum diaktif "
+        },
+        "error": -3
+    },
+    "[SW]DESCRIPTION_INVALID": {
+        "message": {
+            "EN": "[SW -32] DESCRIPTION_INVALID",
+            "TH": "[SW -32] ข้อมูล DESCRIPTION ไม่ถูกต้อง ",
+            "VN": "[SW -32] Thông tin description không hợp lệ ",
+            "IN": "[SW -32] Informasi deskripsi tidak benar "
+        },
+        "error": -32
+    },
+    "[SW]CHANNEL_NOT_SUPPORT_PROVIDER": {
+        "message": {
+            "EN": "[SW -18] CHANNEL_NOT_SUPPORT_PROVIDER",
+            "TH": "[SW -18] CHANNEL ไม่สนับสนุนผู้ให้บริการนี้ ",
+            "VN": "[SW -18] Channel không hỗ trợ nhà cung cấp này",
+            "IN": "[SW -18] Channel tidak support provider ini "
+        },
+        "error": -18
+    },
+    "[SW]USER_BALANCE_NOT_ENOUGH": {
+        "message": {
+            "EN": "[SW -103] USER_BALANCE_NOT_ENOUGH",
+            "TH": "[SW -103] เงินคงเหลือไม่เพียงพอ",
+            "VN": "[SW -103] Số dư không đủ thanh toán",
+            "IN": "[SW -103] Saldo pulsa tidak cukup "
+        },
+        "error": -103
+    },
+    "[SW]CHANNEL_NOT_ACTIVE_ON_APP": {
+        "message": {
+            "EN": "[SW -17] CHANNEL_NOT_ACTIVE_ON_APP",
+            "TH": "[SW -17] CHANNEL ใน app ไม่เปิดใช้งาน ",
+            "VN": "[SW -17] Channel không active trên app",
+            "IN": "[SW -17] Channel tidak aktif di dalam aplikasi "
+        },
+        "error": -17
+    },
+    "[SW]REDIRECT_URL_INVALID": {
+        "message": {
+            "EN": "[SW -30] REDIRECT_URL_INVALID",
+            "TH": "[SW -30] URL ไม่ถูกต้อง ",
+            "VN": "[SW -30] url không hợp lệ",
+            "IN": "[SW -30] url tidak benar "
+        },
+        "error": -30
+    },
+    "[SW]AMOUNT_GREATER_THAN_MAX_OF_APP_CONFIG": {
+        "message": {
+            "EN": "[SW -26] AMOUNT_GREATER_THAN_MAX_OF_APP_CONFIG",
+            "TH": "[SW -26] AMOUNT_GREATER_THAN_MAX_OF_APP_CONFIG",
+            "VN": "[SW -26] Ứng dụng không hỗ trợ mệnh giá này",
+            "IN": "[SW -26] Aplikasi tidak support nominal ini "
+        },
+        "error": -26
+    }
+}
