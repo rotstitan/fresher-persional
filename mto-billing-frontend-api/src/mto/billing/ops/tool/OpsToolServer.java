@@ -22,7 +22,6 @@ import org.eclipse.jetty.server.handler.DefaultHandler;
 import org.eclipse.jetty.server.handler.HandlerList;
 import org.eclipse.jetty.servlet.ServletHandler;
 import org.eclipse.jetty.util.thread.QueuedThreadPool;
-import org.jooq.Record;
 import zcore.controller.ApiOutput;
 import zcore.controller.ApiServlet;
 import zcore.utilities.CommonUtil;
@@ -32,6 +31,7 @@ import zcore.utilities.CommonUtil;
  * @author rots
  */
 public class OpsToolServer implements Runnable {
+
     private static final Lock LOCK = new ReentrantLock();
     private static final Logger logger = Logger.getLogger(OpsToolServer.class);
     private Server server;
@@ -51,7 +51,7 @@ public class OpsToolServer implements Runnable {
         return _instance;
     }
 
-        @Override
+    @Override
     public void run() {
         try {
             // Thread 
@@ -96,35 +96,33 @@ public class OpsToolServer implements Runnable {
             try {
                 String pathInfo = (req.getPathInfo() == null) ? "" : req.getPathInfo();
                 switch (pathInfo) {
-                    case "/getinfo/":
-                    {
+                    case "/getinfo/": {
                         if (!checkValidParam(req, new String[]{"orderNumber"})
                                 || !CommonUtil.isLong(req.getParameter("orderNumber"))) {
                             logger.warn("checkValidParam - OpsToolApiController: " + req.getParameterMap());
                             return new MbApiOutput(MbApiOutput.ERROR_CODE_API.INVALID_DATA_INPUT, req);
                         }
                         long orderNumber = Long.parseLong(req.getParameter("orderNumber"));
-                        Map<String,Object> result = OpsToolService.getInstance().getDataByOrderNumber(orderNumber);
-                        if(null == result){
+                        Map<String, Object> result = OpsToolService.getInstance().getDataByOrderNumber(orderNumber);
+                        if (null == result) {
                             // Need define new error code
                             return new MbApiOutput(MbApiOutput.ERROR_CODE_API.SERVER_ERROR, req);
-                        }else{
+                        } else {
                             return new MbApiOutput(MbApiOutput.ERROR_CODE_API.SUCCESS, req, result);
                         }
                     }
-                    case "/getaction/":
-                    {
-                         if (!checkValidParam(req, new String[]{"orderNumber"})
+                    case "/getaction/": {
+                        if (!checkValidParam(req, new String[]{"orderNumber"})
                                 || !CommonUtil.isLong(req.getParameter("orderNumber"))) {
                             logger.warn("checkValidParam - OpsToolApiController: " + req.getParameterMap());
                             return new MbApiOutput(MbApiOutput.ERROR_CODE_API.INVALID_DATA_INPUT, req);
                         }
                         long orderNumber = Long.parseLong(req.getParameter("orderNumber"));
-                        List<Map<String,Object>> result = OpsToolService.getInstance().getActionDataByOrderNumber(orderNumber);
-                        if(null == result){
+                        List<Map<String, Object>> result = OpsToolService.getInstance().getActionDataByOrderNumber(orderNumber);
+                        if (null == result) {
                             // Need define new error code
                             return new MbApiOutput(MbApiOutput.ERROR_CODE_API.SERVER_ERROR, req);
-                        }else{
+                        } else {
                             return new MbApiOutput(MbApiOutput.ERROR_CODE_API.SUCCESS, req, result);
                         }
                     }

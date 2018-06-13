@@ -5,11 +5,6 @@
  */
 package mto.billing.config;
 
-import com.google.gson.Gson;
-import mto.billing.config.MbConfigEntity.MbAppConfig;
-import mto.billing.config.MbConfigEntity.MbClientConfig;
-import mto.billing.config.MbConfigEntity.MbConfig;
-
 /**
  *
  * @author huuloc.tran89
@@ -40,32 +35,4 @@ public class MbConfigApiOutput {
             this.message = message;
         }
     }
-
-    public static class GetMbConfigOutput extends MbConfigApiOutput {
-
-        public MbConfig data;
-
-        public String toJString() {
-            return new Gson().toJson(this);
-        }
-    }
-
-    public static class GetMbClientConfigOutput extends MbConfigApiOutput {
-
-        public MbClientConfig data;
-
-        public String toJString() {
-            return new Gson().toJson(this);
-        }
-    }
-
-    public static class GetMbAppConfigOutput extends MbConfigApiOutput {
-
-        public MbAppConfig data;
-
-        public String toJString() {
-            return new Gson().toJson(this);
-        }
-    }
-
 }

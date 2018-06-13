@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/zserver/java-projects/ops-tool/src/mto/billing/fe/entity/MbDeclaredEntity.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/zcore/utilities/DBConnector.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/mto/billing/fe/entity/MbEntity.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/ops/tool/ServiceDaemon.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/mto/billing/ops/tool/OpsToolServer.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/mto/billing/fe/main/Configuration.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/mto/billing/config/MbConfigService.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/mto/billing/config/MbConfigDeclaredEntity.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/mto/billing/fe/entity/MbApiOutput.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/mto/billing/config/MbConfigEntity.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/mto/billing/config/MbConfigUtils.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/zcore/controller/ApiOutput.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/mto/billing/config/MbConfigApiOutput.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/zcore/cache/lru/InstrumentedCache.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/mto/billing/ops/tool/OpsToolService.java</file>
+            <file>file:/zserver/java-projects/ops-tool/src/mto/billing/ops/tool/SQLConnectionHandler.java</file>
+        </group>
+    </open-files>
+</project-private>
